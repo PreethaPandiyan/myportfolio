@@ -1,0 +1,100 @@
+/*import fonts from css file*/
+@import url(./fonts.css);
+
+@import url(./partials/var.css);
+
+
+/*start navigation*/
+
+
+
+
+.header_area .main-menu .navbar .navbar-brand{
+    padding: 0 2rem 0 5rem;
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: white;
+}
+
+.header_area .main-menu .navbar{
+    widows: 200px;
+    padding: 1rem 10rem;
+    background: rgba(0,0,0,0.4) !important;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+}
+
+
+.header_area .main-menu .nav-item .nav-link{
+    font-size: 1.5rem;
+    font-weight: 450 ;
+    padding: 0.8rem;
+    color: black;
+
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav  a:hover{
+    background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.view{
+    opacity:5;
+}
+
+.h1-responsive{
+    font-size: 300%;
+    padding-top: 12%;
+    padding-right: 60%;
+
+    
+}
+
+.name{
+    font-size: 500%;
+}
+
+.hr-light{
+    padding-bottom: 25%;
+}
+
+#about .btn{
+    border: 2px solid black;
+    width: 40%;
+    padding:15px 22px;
+    background: white;
+    border-radius: 5px;
+    margin-top: 20px;
+
+}
+#about .btn a{
+    color: black;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight:bold;
+}
+#about .btn:hover{
+    border:2px solid darkgray;
+    cursor: pointer;
+    background: gray;
+    text-emphasis-color: white;
+}
+
+.fab{
+    color: black;
+}
+
+
+
+
+
